@@ -15,4 +15,4 @@ steps:
 images:
 - 'gcr.io/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA'
 options:
-  logs_bucket: gs://test-bucket-siddu/
+  logging: NONE
